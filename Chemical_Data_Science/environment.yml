@@ -1,0 +1,17 @@
+name: py310_aisem2023
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - rdkit
+  - jupyter
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - jupyter_contrib_nbextensions
+  - py3dmol
+  - ca-certificates
+  - certifi
+  - openssl
