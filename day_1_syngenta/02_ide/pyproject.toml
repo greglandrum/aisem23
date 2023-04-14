@@ -1,0 +1,37 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "setuptools-scm[toml]"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aisem23-code-snippets"
+requires-python = ">=3.7"
+classifiers = [
+    # -- Do not remove these classifiers --
+    "Private :: Do Not Upload",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dynamic = [
+    "dependencies",
+    "description",
+    "optional-dependencies",
+    "readme",
+    "version"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = "requirements.txt"}
+description = {file = "description.txt"}
+readme = {file = "README.rst", content-type = "text/x-rst"}
+
+[tool.setuptools.dynamic.optional-dependencies]
+dev = {file = "requirements-dev.txt"}
+
+[tool.setuptools_scm]
+write_to = "src/aisem23_code_snippets/_version.py"
