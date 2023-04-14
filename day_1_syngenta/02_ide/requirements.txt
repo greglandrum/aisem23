@@ -1,0 +1,7 @@
+# Requirement strings following PEP 508 (https://peps.python.org/pep-0508/)
+rdkit>=2022.9.5
+pandas>=2.0.0
+matplotlib>=3.7.1
+flake8>=6.0.0
+flake8-return>=1.2.0
+isort>=5.12.0
