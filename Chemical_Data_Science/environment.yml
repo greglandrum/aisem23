@@ -5,6 +5,7 @@ dependencies:
   - python=3.10
   - rdkit
   - jupyter
+  - jupyterlab
   - pandas
   - numpy
   - matplotlib
