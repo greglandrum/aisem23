@@ -1,0 +1,84 @@
+metadata:
+  version: 1
+  creator:
+    name: greg landrum
+    email: glandrum@ethz.ch
+  summary: |
+    Collection of Ki datasets for bioactivity prediction.
+
+    Each row includes the reported value. Only values without data_validity_comments are included
+
+  activity_column: standard_value
+
+sources:
+  CHEMBL205:
+    description: "Target CHEMBL205: Homo sapiens Carbonic anhydrase II"
+    args:
+      filename: '{{ CATALOG_DIR }}/Ki_data/target_CHEMBL205.csv.gz'
+      smilesColumn: canonical_smiles
+    metadata:
+      url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL205/
+      source: ChEMBL_30
+      protein_class_desc: "enzyme  lyase"
+      protein_pref_name: "Carbonic anhydrase II"
+      activity_type: Ki
+      min pchembl_value: 4.00
+      max pchembl_value: 11.00
+      median pchembl_value: 7.20
+      is_log_data: true
+      Compounds: 4511
+    driver: intake_rdkit.smiles.SmilesSource
+
+  CHEMBL261:
+    description: "Target CHEMBL261: Homo sapiens Carbonic anhydrase I"
+    args:
+      filename: '{{ CATALOG_DIR }}/Ki_data/target_CHEMBL261.csv.gz'
+      smilesColumn: canonical_smiles
+    metadata:
+      url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL261/
+      source: ChEMBL_30
+      protein_class_desc: "enzyme  lyase"
+      protein_pref_name: "Carbonic anhydrase I"
+      activity_type: Ki
+      min pchembl_value: 4.00
+      max pchembl_value: 11.00
+      median pchembl_value: 6.29
+      is_log_data: true
+      Compounds: 4267
+    driver: intake_rdkit.smiles.SmilesSource
+
+  CHEMBL3594:
+    description: "Target CHEMBL3594: Homo sapiens Carbonic anhydrase IX"
+    args:
+      filename: '{{ CATALOG_DIR }}/Ki_data/target_CHEMBL3594.csv.gz'
+      smilesColumn: canonical_smiles
+    metadata:
+      url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3594/
+      source: ChEMBL_30
+      protein_class_desc: "enzyme  lyase"
+      protein_pref_name: "Carbonic anhydrase IX"
+      activity_type: Ki
+      min pchembl_value: 4.01
+      max pchembl_value: 10.05
+      median pchembl_value: 7.25
+      is_log_data: true
+      Compounds: 4220
+    driver: intake_rdkit.smiles.SmilesSource
+
+  CHEMBL3242:
+    description: "Target CHEMBL3242: Homo sapiens Carbonic anhydrase XII"
+    args:
+      filename: '{{ CATALOG_DIR }}/Ki_data/target_CHEMBL3242.csv.gz'
+      smilesColumn: canonical_smiles
+    metadata:
+      url: https://www.ebi.ac.uk/chembl/target_report_card/CHEMBL3242/
+      source: ChEMBL_30
+      protein_class_desc: "enzyme  lyase"
+      protein_pref_name: "Carbonic anhydrase XII"
+      activity_type: Ki
+      min pchembl_value: 4.01
+      max pchembl_value: 9.62
+      median pchembl_value: 7.48
+      is_log_data: true
+      Compounds: 3398
+    driver: intake_rdkit.smiles.SmilesSource
