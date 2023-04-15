@@ -1,0 +1,35 @@
+# Do not delete items from .gitignore.
+#
+# Instead start a discussion on changing items or adding new ones globally to
+# the template by opening an issue on:
+# https://git.syngentaaws.org/scientific-computing-team/cookiecutter-scicomp-python/-/issues/new
+
+# Version file created by setuptools_scm (see pyproject.toml)
+src/aisem23_code_snippets/_version.py
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg-info/
+.eggs/
+dist/
+
+# IDE settings Pycharm/VSCode/Visual Studio
+.idea
+.vscode
+*.sln
+
+# pytest
+.pytest_cache
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# Sphinx documentation
+docs/_build/
+
+# managing secrets
+.ini
+.env
