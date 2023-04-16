@@ -11,6 +11,7 @@ dependencies:
   - matplotlib
   - scipy
   - scikit-learn
+  - xgboost
   - jupyter_contrib_nbextensions
   - py3dmol
   - ca-certificates
