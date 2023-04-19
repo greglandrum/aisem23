@@ -1,0 +1,9 @@
+,drug,approved,chembl_id,smiles
+0,Gefitinib,2003,CHEMBL939,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1
+1,Erlotinib,2004,CHEMBL553,C#Cc1cccc(Nc2ncnc3cc(OCCOC)c(OCCOC)cc23)c1
+2,Lapatinib,2007,CHEMBL554,CS(=O)(=O)CCNCc1ccc(-c2ccc3ncnc(Nc4ccc(OCc5cccc(F)c5)c(Cl)c4)c3c2)o1
+3,Afatinib,2013,CHEMBL1173655,CN(C)C/C=C/C(=O)Nc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1O[C@H]1CCOC1
+4,Osimertinib,2015,CHEMBL3353410,C=CC(=O)Nc1cc(Nc2nccc(-c3cn(C)c4ccccc34)n2)c(OC)cc1N(C)CCN(C)C
+5,Neratinib,2017,CHEMBL180022,CCOc1cc2ncc(C#N)c(Nc3ccc(OCc4ccccn4)c(Cl)c3)c2cc1NC(=O)\C=C\CN(C)C
+6,Brigatinib,2017,CHEMBL3545311,COc1cc(ccc1Nc2ncc(Cl)c(Nc3ccccc3P(=O)(C)C)n2)N4CCC(CC4)N5CCN(C)CC5
+7,Dacomitinib,2018,CHEMBL2110732,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)/C=C/CN1CCCCC1
