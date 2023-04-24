@@ -1,0 +1,12 @@
+chembl_id,canonical_smiles
+CHEMBL2447950,Cl.CCOc1cc2ncnc(Nc3cccc(Cl)c3)c2cc1OCC
+CHEMBL3671504,Fc1cc(Br)ccc1Nc2ncnc3cc(OCCC=C)c(NC(=O)C=C)cc23
+CHEMBL138940,Fc1ccc(Nc2ncnc3cnc(NC(=O)\C=C\C(=O)NCCCN4CCOCC4)cc23)cc1Cl
+CHEMBL513208,CN(C)Cc1ccc(Nc2nc3ncnc(Nc4ccc(F)c(Cl)c4)c3s2)cc1
+CHEMBL3952157,COc1ccc(cc1)c2oc3ncnc(N[C@H](CO)c4ccccc4)c3c2
+CHEMBL311109,NC(=O)C1CCN(Cc2ccc(cc2)c3cc4ncnc(Nc5ccc6[nH]ccc6c5)c4s3)CC1
+CHEMBL14874,CN(CCCOc1ccc2ncnc(Nc3ccc(OCc4ccccc4)cc3)c2c1)CCS(=O)(=O)C
+CHEMBL3805299,COCCOc1cc2ncnc(Nc3ccc(C)c(c3)[N+](=O)[O-])c2c4OCCOc14
+CHEMBL206029,CS(=O)(=O)CCNC(=O)NCc1cccc(n1)C#Cc2cncnc2Nc3ccc(OCc4cccc(F)c4)c(Cl)c3
+CHEMBL490267,CC(C)(C)c1ccc(OC[C@H](Cn2ccnc2[N+](=O)[O-])OC(=O)c3ccc(NC=C4C(=O)C=CC4=O)cc3)cc1
+CHEMBL2315698,CC(C)[C@@H](NC1=CC(=O)C(=C(C\C=C(/C)\CC[C@@]2(C)CCC[C@@H](C)C2=C)C1=O)O)C(=O)O
